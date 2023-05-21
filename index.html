@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logo"><img src="https://play-lh.googleusercontent.com/P2VMEenhpIsubG2oWbvuLGrs0GyyzLiDosGTg8bi8htRXg9Uf0eUtHiUjC28p1jgHzo" alt=" spotify"> Spotify</li>
+            <li> Home</li>
+            <li> About</li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist"></div>
+            <div class="songItem">
+                <img alt="1" class="songicon">
+                <span class="songName"></span>
+                <span class="timestamp"></span>
+                <i id="0" class="fa songPlay solid fa-play"></i>
+            </div>
+            <div class="songItem">
+                <img alt="1" class="songicon">
+                <span class="songName"></span>
+                <span class="timestamp"></span>
+                <i id="1" class="fa songPlay solid fa-play"></i>
+            </div>
+            <div class="songItem">
+                <img alt="1" class="songicon">
+                <span class="songName"></span>
+                <span class="timestamp"></span>
+                <i id="2" class="fa songPlay solid fa-play"></i>
+            </div>
+            <div class="songItem">
+                <img alt="1" class="songicon">
+                <span class="songName"></span>
+                <span class="timestamp"></span>
+                <i id="3" class="fa songPlay solid fa-play"></i>
+            </div>
+            
+        <div class="banner"></div>
+    </div>
+    <div class="progressbar">
+        <input type="range" name="musicplayer" value="0" min="0" max="100" id="mp" >
+        <span class="title"></span>
+        <div class="playicons">
+            <i class="fa fa-2x solid fa-backward-step" id="prev"></i>
+            <i class="fa fa-3x solid fa-play" id="playBtn"></i>
+            <i class="fa fa-2x solid fa-forward-step" id="next"></i>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/8323691506.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
